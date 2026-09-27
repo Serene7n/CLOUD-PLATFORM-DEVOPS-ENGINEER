@@ -1,0 +1,18 @@
+# Local state files (NEVER commit these)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform runtime directory
+.terraform/
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration lock
+.terraform.lock.hcl
